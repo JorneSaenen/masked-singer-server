@@ -47,6 +47,7 @@ Foto's zijn meegeleverd in src/images
 ## Info:
 
 Deze foto is ook nog toegevoegd in de info map.
+Singers.json importen in je mongodb database
 
 ![Info](/info/TMS%20info.jpg 'info')
 
