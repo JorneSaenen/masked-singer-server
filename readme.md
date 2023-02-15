@@ -6,9 +6,8 @@
 - Gebruik ES6 (import/export) - type: module
 - Gebruik MVC
 - Gebruik mongoose voor mongodb, model bouwen etc - mongoose
-- Gebruik .ENV voor port en mongo url - dotenv
+- Gebruik .ENV voor port, mongo url, etc... - dotenv
 - Stel de cors in voor alle domeinen - cors
-- Maak en gitignore - node_modules, .DS_Store , .env
 - Pas error handling toe
 - NIET then gebruiken enkel async, await
 - fetch of axios, dit is vrije keuze

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "An API about The Masked Singer Show",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
