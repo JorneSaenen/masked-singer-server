@@ -51,6 +51,14 @@ Singers.json importen in je mongodb database
 
 ![Info](/info/TMS%20info.jpg 'info')
 
+## Extra
+
+Image uploader toegevoegd met het multer package.
+Je kan client side opstarten door in de /client npm install te doen en erna ook npm run dev uit te voeren.
+Dan je een nieuwe singer toevoegen via http://localhost:3001
+De image word dan geupload naar /public/images
+De data word dan ook in de db toegevoegd met de correcte url naar de nieuwe image
+
 ---
 
 #### **Credits van een creatief brein**

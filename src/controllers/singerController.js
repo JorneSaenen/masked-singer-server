@@ -54,8 +54,9 @@ const getSingerById = async (req, res) => {
 
 const createSinger = async (req, res) => {
   try {
-    const { name, image, place, participant, episodeCount, startedEpisode } =
-      req.body;
+    const { name, place, participant, episodeCount, startedEpisode } = req.body;
+    const { file } = req;
+    const image = file.filename;
     const singer = await Singer.create({
       name,
       image,

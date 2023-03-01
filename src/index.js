@@ -12,9 +12,9 @@ const endpoint = '/api/v1/tms';
 const corsOptions = NODE_ENV === 'development' ? {} : { origin: FRONT_URL };
 
 // middleware
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.static('public'));
-app.use(cors(corsOptions));
 
 //routes
 app.use(endpoint, singerRouter);

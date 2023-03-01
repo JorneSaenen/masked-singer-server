@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Masked singer API</h1>
+    <form class="insertSinger">
+      <input type="text" placeholder="name" id="name" name="name" />
+      <input type="file" accept="image/*" id="image" name="image" />
+      <input type="text" placeholder="place" id="place" name="place" />
+      <input
+        type="text"
+        placeholder="episodeCount"
+        id="episodeCount"
+        name="episodeCount"
+      />
+      <input
+        type="text"
+        placeholder="startedEpisode"
+        id="startedEpisode"
+        name="startedEpisode"
+      />
+      <input
+        type="text"
+        placeholder="participant"
+        id="participant"
+        name="participant"
+      />
+
+      <button>Submit</button>
+    </form>
+  </body>
+
+  <script src="./index.js"></script>
+</html>
